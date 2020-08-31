@@ -1,0 +1,14 @@
+Install Node.js
+Run the following commands on the project directory;
+
+- npm install
+- npm run serve
+
+The project should run under http://localhost:8080
+
+Login
+- Can login using
+
+  ID: 4081308423
+  password: kanini
+  
