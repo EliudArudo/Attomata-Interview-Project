@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <clipPath id="clip-logo">
+      <rect width="512" height="512"/>
+    </clipPath>
+  </defs>
+  <g id="logo" clip-path="url(#clip-logo)">
+    <g id="logo-2" data-name="logo" transform="translate(-869.577 -375.588)">
+      <g id="logo-3" data-name="logo" transform="translate(677.315 112.408)">
+        <g id="logo-4" data-name="logo" transform="translate(0 0)">
+          <text id="S" transform="translate(663.261 764.18)" fill="#657acd" font-size="730" font-family="OratorStd, Orator Std"><tspan x="-438" y="0">S</tspan></text>
+          <text id="S-2" data-name="S" transform="translate(205.338 728.478) rotate(90)" fill="#f29200" font-size="729" font-family="OratorStd, Orator Std"><tspan x="-437.4" y="0">S</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
