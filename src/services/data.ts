@@ -100,7 +100,7 @@ export class DataProvider {
         }
 
         transcript['results'] = results
-        const average = sum / subjects.length
+        const average = Math.ceil(sum / subjects.length)
         transcript.average = average
 
         const _transcript = this.getUpdatedTranscript(transcript)

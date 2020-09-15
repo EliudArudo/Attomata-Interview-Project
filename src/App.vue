@@ -157,6 +157,7 @@ input::-webkit-inner-spin-button {
 .body {
   width: 100%;
   max-width: 300px;
+  height: 100%;
 }
 
 .separator {

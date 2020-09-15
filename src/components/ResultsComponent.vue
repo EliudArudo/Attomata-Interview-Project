@@ -221,7 +221,8 @@ export default class ResultsComponent extends Vue {
 }
 
 .entries {
-  max-height: 400px;
+  height: calc(100% - 50px);
+  /* max-height: 400px; */
   justify-content: flex-start;
 
   padding: 10px;

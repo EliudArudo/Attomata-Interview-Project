@@ -58,6 +58,10 @@ export default class Transcripts extends Vue {
   transcripts: Array<any> = [];
 
   mounted(): void {
+    if (!this.$dataService.getCurrentLoggedInStudent()) {
+      return;
+    }
+
     this.transcripts = this.$dataService.getCurrentLoggedInStudent().transcripts;
 
     console.log(this.$dataService.getCurrentLoggedInStudent());
@@ -100,7 +104,8 @@ export default class Transcripts extends Vue {
 }
 
 .transcripts {
-  max-height: 400px;
+  height: calc(100% - 132px);
+  /* max-height: 400px; */
   padding: 10px;
 
   justify-content: flex-start;

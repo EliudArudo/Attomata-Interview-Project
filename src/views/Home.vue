@@ -109,6 +109,10 @@ export default class Home extends Vue {
   }
 
   mounted() {
+    if (!this.$dataService.getCurrentLoggedInStudent()) {
+      return;
+    }
+
     this.loggedInUsername = this.$dataService.getCurrentLoggedInStudent().name;
   }
 

@@ -21,10 +21,10 @@ export default class Results extends Vue {
 <style scoped>
 .body {
   max-width: 400px;
+  height: 100%;
 }
 
 .entries {
-  max-height: 400px;
   justify-content: flex-start;
 
   padding: 10px;
